@@ -1,12 +1,12 @@
 :root {
-    --page-height: 2000px;
-    --page-width: 1440px;
+    --page-height: 1080px;
+    --page-width: 1920px;
   }
 body {
     display: flex;
     flex: 1;
-    justify-content: center;
-    align-items: center;
+    justify-items: center;
+    align-items:start;
     margin: 0;
     height: var(--page-height);
     width: var(--page-width);
@@ -14,9 +14,9 @@ body {
 .clicker {
     display: flex;
     flex: 1;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    margin: 0;
+    margin-top: 100px;
 }
 .game {
     display: flex;
