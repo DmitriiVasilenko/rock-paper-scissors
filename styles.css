@@ -1,0 +1,36 @@
+:root {
+    --page-height: 2000px;
+    --page-width: 1440px;
+  }
+body {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: var(--page-height);
+    width: var(--page-width);
+}
+.clicker {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.game {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: blue;
+    border-style:solid;
+    border-width: medium;
+    max-width:fit-content;
+    margin: 0;
+}
