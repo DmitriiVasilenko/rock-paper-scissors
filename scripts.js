@@ -96,13 +96,13 @@ buttons.forEach((button) => {
   document.getElementById("playerpoints2").innerHTML = playerpoints2;
   document.getElementById("roundnumber").innerHTML = round;
   document.getElementById("tienumber").innerHTML = tie;
-  document.getElementById("userselect").innerHTML = "Your last choice: "+playerSelection;
-  document.getElementById("compselect").innerHTML = "Computer last choice: "+computerSelection;
+  document.getElementById("userselect").innerHTML = "Your choice: "+playerSelection;
+  document.getElementById("compselect").innerHTML = "Computer's choice: "+computerSelection;
 
   if (round>0 && playerpoints1<5 && playerpoints2<5) {
-    document.getElementById("invitation").innerHTML = "Please click any button bellow to continue the game"}
+    document.getElementById("invitation").innerHTML = "Please click any button bellow<br>to continue the game"}
     else {
-    document.getElementById("invitation").innerHTML = "Please click any button bellow to start the new game";
+    document.getElementById("invitation").innerHTML = "Please click any button bellow<br>to start the new game";
     }
   if (playerpoints1==5) {
     document.getElementById("result").innerHTML = "Congratilations! You are the winner! Restart?"
@@ -127,7 +127,7 @@ function restartGame() {
   document.getElementById("playerpoints2").innerHTML = 0;
   document.getElementById("roundnumber").innerHTML = 0;
   document.getElementById("tienumber").innerHTML = 0;
-  document.getElementById("invitation").innerHTML = "Please click any button bellow to start the new game";
+  document.getElementById("invitation").innerHTML = "Please click any button bellow<br>to start the new game";
   document.getElementById("result").innerHTML = ""
   document.getElementById("userselect").innerHTML = ""
   document.getElementById("compselect").innerHTML = ""
